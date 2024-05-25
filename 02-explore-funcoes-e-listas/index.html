@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitura de Livros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+            <li><button onclick="simpleTest()">Início</button></li>
+            <li><button onclick="">Próxima Página</button></li>
+            <li><button onclick="">Página Anterior</button></li>
+            <li><button onclick="">Próximo Capítulo</button></li>
+            <li><button onclick="">Capítulo Anterior</button></li>
+            <li><button onclick="">Ir para lista de Capítulos</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="chapter-title">
+            <h1></h1>
+        </div>
+        <div id="chapter-preview">
+            <button onclick="showPreview()" >Exibir prévia do capítulo (cuidado com SPOILERS!)</button>
+            <p></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
